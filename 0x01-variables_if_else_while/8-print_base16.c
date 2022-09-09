@@ -23,12 +23,6 @@ int main(void)
 		putchar('0' + a);
 		a++;
 	}
-	a = '1';
-	for (i = 0; i < 6; i++)
-	{
-		putchar('0' + a);
-		a++;
-	}
 	putchar('\n');
 	return (0);
 }
